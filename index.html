@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#10172a">
+  <title>Mohana S | AI & ML Student Portfolio</title>
+  <style>
+    :root{--bg:#0b1020;--panel:#141d33;--text:#edf2ff;--muted:#aab6d3;--accent:#8b9cff;--accent2:#63e6c5}
+    *{box-sizing:border-box;scroll-behavior:smooth}
+    body{margin:0;font-family:Arial,Helvetica,sans-serif;background:linear-gradient(135deg,#0b1020,#111b35 60%,#17213c);color:var(--text);line-height:1.65}
+    a{color:inherit;text-decoration:none}
+    .wrap{width:min(100% - 36px,960px);margin:auto}
+    header{position:sticky;top:0;background:#0b1020eF;backdrop-filter:blur(12px);border-bottom:1px solid #ffffff18;z-index:5}
+    nav{min-height:64px;display:flex;align-items:center;justify-content:space-between;gap:12px}
+    .brand{font-weight:800;letter-spacing:.5px;color:var(--accent2)}
+    .navlinks{display:flex;gap:16px;flex-wrap:wrap;font-size:.9rem;color:var(--muted)}
+    .navlinks a:hover{color:var(--accent2)}
+    .hero{padding:76px 0 58px;display:grid;grid-template-columns:1.4fr .6fr;gap:28px;align-items:center}
+    .tag{display:inline-block;border:1px solid #8b9cff66;color:var(--accent2);padding:6px 12px;border-radius:30px;font-size:.82rem}
+    h1{font-size:clamp(2.5rem,8vw,4.8rem);line-height:1.05;margin:18px 0}
+    h1 span{color:var(--accent)}
+    .lead{font-size:1.08rem;color:var(--muted);max-width:620px}
+    .actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:26px}
+    .btn{padding:11px 17px;border-radius:10px;background:var(--accent);color:#10172a;font-weight:700}
+    .btn.alt{background:transparent;color:var(--text);border:1px solid #ffffff44}
+    .orb{width:min(230px,60vw);aspect-ratio:1;border-radius:50%;margin:auto;display:grid;place-items:center;background:radial-gradient(circle at 35% 30%,#b6c1ff,#6879d8 42%,#27365e 72%);box-shadow:0 0 70px #7889ff55;font-size:4rem;font-weight:800;color:#10172a}
+    section{padding:38px 0}
+    .section-title{font-size:1.8rem;margin:0 0 18px}
+    .section-title span{color:var(--accent2)}
+    .card{background:#141d33cc;border:1px solid #ffffff18;border-radius:18px;padding:22px;box-shadow:0 12px 35px #0002}
+    .muted{color:var(--muted)}
+    .grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+    .chips{display:flex;flex-wrap:wrap;gap:10px}
+    .chip{background:#263251;border:1px solid #8b9cff44;color:#dce3ff;padding:8px 13px;border-radius:30px;font-size:.92rem}
+    .project h3,.card h3{margin-top:0}
+    .project p{color:var(--muted)}
+    .project small{color:var(--accent2)}
+    footer{border-top:1px solid #ffffff18;margin-top:40px;padding:25px 0;color:var(--muted);text-align:center}
+    @media(max-width:650px){.hero{grid-template-columns:1fr;padding-top:52px}.orb{grid-row:1;width:150px}.grid{grid-template-columns:1fr}.navlinks{gap:10px;font-size:.78rem}.wrap{width:min(100% - 28px,960px)}}
+  </style>
+</head>
+<body>
+<header>
+  <nav class="wrap">
+    <a class="brand" href="#home">MOHANA S.</a>
+    <div class="navlinks">
+      <a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#learning">Learning</a><a href="#contact">Contact</a>
+    </div>
+  </nav>
+</header>
+
+<main class="wrap">
+  <section class="hero" id="home">
+    <div>
+      <span class="tag">AI &amp; ML STUDENT</span>
+      <h1>Hi, I'm <span>Mohana S.</span></h1>
+      <p class="lead">A B.Sc. Artificial Intelligence and Machine Learning student who is curious about technology, programming, and building useful solutions.</p>
+      <div class="actions">
+        <a class="btn" href="#projects">Explore my work</a>
+        <a class="btn alt" href="#contact">Contact me</a>
+      </div>
+    </div>
+    <div class="orb" aria-label="Mohana initials">MS</div>
+  </section>
+
+  <section id="about">
+    <h2 class="section-title">About <span>Me</span></h2>
+    <div class="card">
+      <p class="muted">I am currently pursuing B.Sc. in Artificial Intelligence and Machine Learning. I enjoy learning programming concepts and exploring how AI and machine learning can solve real-world problems. I am continuously improving my technical knowledge through coursework, practice, and learning activities.</p>
+      <p><strong>Education:</strong> B.Sc. Artificial Intelligence &amp; Machine Learning</p>
+      <p><strong>Current year:</strong> Second Year</p>
+    </div>
+  </section>
+
+  <section id="skills">
+    <h2 class="section-title">Technical <span>Skills</span></h2>
+    <div class="card">
+      <div class="chips">
+        <span class="chip">Python</span><span class="chip">Java</span>
+        <span class="chip">HTML</span><span class="chip">CSS</span>
+        <span class="chip">Artificial Intelligence</span><span class="chip">Machine Learning</span>
+        <span class="chip">Problem Solving</span><span class="chip">Prompt Engineering</span>
+      </div>
+      <p class="muted" style="margin-bottom:0">Skills listed here are areas of learning and practice. Add or remove items to match your current experience.</p>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2 class="section-title">Projects &amp; <span>Interests</span></h2>
+    <div class="grid">
+      <article class="card project">
+        <small>PROJECT / ADD DETAILS</small>
+        <h3>AI-Based Health Risk Prediction</h3>
+        <p>An area of interest focused on exploring how AI can support early symptom analysis and risk prediction.</p>
+        <p class="muted">Add your project description, tools, screenshots, and GitHub link when ready.</p>
+      </article>
+      <article class="card project">
+        <small>PROJECT / ADD DETAILS</small>
+        <h3>Smart Automobile Measurement System using IoT</h3>
+        <p>An IoT-based project topic exploring connected sensors and automobile measurements.</p>
+        <p class="muted">Add your implementation details, components, results, and project link when ready.</p>
+      </article>
+    </div>
+  </section>
+
+  <section id="learning">
+    <h2 class="section-title">Learning &amp; <span>Certifications</span></h2>
+    <div class="card">
+      <ul class="muted">
+        <li>Generative AI and Business Applications — learning experience</li>
+        <li>Python programming and problem-solving practice</li>
+        <li>Exploring online courses and technical certifications</li>
+      </ul>
+      <p class="muted">Add only certificates you have earned. You can include certificate links or images here.</p>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2 class="section-title">Get in <span>Touch</span></h2>
+    <div class="card">
+      <p class="muted">I’m open to learning opportunities, collaborations, and connecting with fellow technology enthusiasts.</p>
+      <p><strong>Email:</strong> <span class="muted">Add your email address</span></p>
+      <p><strong>GitHub:</strong> <span class="muted">Add your GitHub profile link</span></p>
+      <p><strong>LinkedIn:</strong> <span class="muted">Add your LinkedIn profile link</span></p>
+    </div>
+  </section>
+</main>
+
+<footer><div class="wrap">© 2026 Mohana S. · Student Portfolio</div></footer>
+</body>
+</html>
